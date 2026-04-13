@@ -87,7 +87,7 @@ py -3.11 app/main.py
 
 ## ⚠️ Notes
 
-- Some warnings (e.g., division by zero or missing override variables) may appear in the terminal. These are related to the simulation model and do not affect the GUI functionality.
+- Some warnings (e.g., division by zero or override messages) may appear in the terminal due to model behavior and do not affect application execution.
 - The application successfully executes the simulation executable with user-defined parameters.
 - All required `.dll` files must be present in the same directory as the `.exe`.
 - Executable and dependency files are excluded due to size. The project demonstrates GUI-based execution of OpenModelica simulations.
